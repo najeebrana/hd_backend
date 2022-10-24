@@ -6,6 +6,8 @@ const User = require("./model/user");
 
 const config = require("./config/default.json");
 
+const { PORT = 3000 } = process.env;
+
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -165,4 +167,4 @@ app.post("/user/login", upload.none(), (request, response) => {
 		});
 });
 
-app.listen(3900, () => console.log("Server is listening on port 3900..."));
+app.listen(PORT, () => console.log("Server is listening on port 3000..."));
