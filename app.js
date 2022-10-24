@@ -108,6 +108,10 @@ app.post(
 	}
 );
 
+app.get("/", (request, response) => {
+	response.send("Hello world");
+});
+
 app.get("/user", (request, response) => {
 	response.send({ email: "na@dd.com", password: "pass" });
 });
