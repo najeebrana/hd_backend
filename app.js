@@ -109,7 +109,7 @@ app.post(
 );
 
 app.get("/user", (request, response) => {
-	response.send({ email: "na@live.ca", password: "pass" });
+	response.send({ email: "na@dd.com", password: "pass" });
 });
 
 app.get("/userList", async (request, response) => {
