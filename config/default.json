@@ -1,0 +1,5 @@
+{
+    "appURL" : "http://localhost:3900/",
+    "dbURL"  : "mongodb://user1:onvNaxlQJYFA8zze@ac-mmngdwh-shard-00-00.tfgrh6q.mongodb.net:27017,ac-mmngdwh-shard-00-01.tfgrh6q.mongodb.net:27017,ac-mmngdwh-shard-00-02.tfgrh6q.mongodb.net:27017/customerdb?ssl=true&replicaSet=atlas-jtnu8f-shard-0&authSource=admin&retryWrites=true&w=majority"
+ }
+
